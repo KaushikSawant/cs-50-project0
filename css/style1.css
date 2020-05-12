@@ -1,0 +1,37 @@
+a {
+  font-size: 48px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+#active {
+  background-color: #6699cc;
+}
+
+a {
+  color: #0084ff;
+}
+
+div p {
+  text-align: center;
+  background-color: #6699cc;
+  width: 500px;
+  height: 400px;
+  font-family: arial;
+  margin: auto;
+  color: white;
+  border-radius: 40px;
+  padding-top: 50px;
+  font-size: 32px;
+  margin-top: 50px;
+}
+
+.contact {
+  padding-left: 25%;
+}
+
+a:hover {
+  text-shadow: 1px 1px;
+}
+
+/*# sourceMappingURL=style1.css.map */

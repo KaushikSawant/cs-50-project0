@@ -1,0 +1,125 @@
+*body{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+	height: 100px;
+	width: 200px;
+	font-size: 48px;
+	margin:0px;
+	padding:0px;
+	background-color: white;
+	color: #0084ff;
+	font-family: arial;
+	font-weight: 700;
+	text-align: center;
+	text-decoration:none;
+}
+.navBar{
+	display: flex;
+	background-color: black;
+	border-radius: 40px;
+	width: 80%;
+	margin: auto;
+}
+
+.mar{
+	float: right;
+	margin: 50px 300px 0 0;
+}
+
+.dc{
+	margin: 70px 0 0 300px;
+}
+
+.all{
+	padding-left: 150px;
+}
+
+.footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 1000px;
+	border-radius: 20px;
+	margin: auto;
+}
+
+.navEle{
+	font-size: 32px;
+	font-family: arial;
+	text-decoration:none;
+	color: white;
+	padding:10px 95px 10px 95px;
+}
+
+.dcMain{
+	padding-top: 50px;
+	text-align:center;
+}
+
+.images{
+	text-align: center;
+	padding-top: 30px;
+}
+table, th, td {
+  border: 1px solid black;
+border-collapse: collapse;
+}
+.table{
+	    padding: 30px 0px 0 230px;
+		font-family: arial;
+}
+
+.button:hover{
+	background-color: black;
+	color:white;
+}
+
+.mMain{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#c{
+	text-align:center;
+}
+
+#active{
+	background-color: #6699cc;
+}
+
+.table{
+	margin-top: 100px;
+	
+}
+
+.loginBox{
+	width:500px;
+	background-color: #6699cc;
+	height:500px;
+	text-align:center;
+	border-radius: 30px;
+	margin: auto;
+	font-family: arial;
+}
+
+a:hover{
+	text-shadow: 1px 1px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+		body {
+			color: red;
+		}
+		.loginBox{
+		background-color: pink;
+		width: 300px;
+		}		
+}
